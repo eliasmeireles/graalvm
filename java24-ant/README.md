@@ -67,9 +67,6 @@ docker run --rm ghcr.io/eliasmeireles/graalvm:jdk24-ant.1.10.14 java -version
 
 # Check Ant version
 docker run --rm ghcr.io/eliasmeireles/graalvm:jdk24-ant.1.10.14 ant -version
-
-# Check native-image availability
-docker run --rm ghcr.io/eliasmeireles/graalvm:jdk24-ant.1.10.14 native-image --version
 ```
 
 ## Environment Details
